@@ -1,0 +1,10 @@
+{
+    "name": "ifeelblue99",
+    "version": "1.0.0",
+    "repository": "",
+    "author": "Baran Cakirbey <barancakirbey13@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    }
+  }
