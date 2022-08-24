@@ -1,4 +1,4 @@
-import { E_ColorType, I_Color } from "./colorTypes";
+import { E_ColorType, I_Color } from "../types/colorTypes";
 
 export function buildColor(color: I_Color): string {
   const { red, green, blue, hue, saturation, lightness, alpha, hex } = color;

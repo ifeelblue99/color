@@ -1,6 +1,6 @@
 {
     "name": "@ifeelblue/color-kit",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "description": "Color kit with pre-made hex colors",
     "main": "lib/es5/index.js",
     "module": "lib/es6/index.js",

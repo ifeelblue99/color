@@ -5,15 +5,21 @@ Consists of pre-made hex colors based on <strong>[this page](https://dribbble.co
 
 ## Usage
 
+#### install
+
 ```
     npm install @ifeelblue/color-kit
 ```
 
+#### use :monocle_face:
+
 ```typescript
 import { darkGreen, BLUE, buildColor } from "@ifeelblue/color-kit";
-import type { I_Color, E_ColorType } from "@ifeelblue/color-kit";
+import { I_Color, E_ColorType } from "@ifeelblue/color-kit";
 
-const greenColorAsHEX: string = buildColor(darkGreen); //  #01ff9b as string
+const greenColorHEX: string = buildColor(darkGreen); //  #01ff9b as string
+// OR
+const greenColorHEX2 = darkGray.hex;
 
 const softBlueAsHEX: string = buildColor(BLUE.dark); //  #ff4580 as string
 
@@ -25,7 +31,7 @@ const myCustomHSLAColor: I_Color = {
   type: E_ColorType.HSLA,
 };
 
-const myCustomColorAsHSLA = buildColor(myCustomHSLAColor); //  hsla(5, 50%, 88%, 0.7) as string
+const myCustomColorHSLA = buildColor(myCustomHSLAColor); //  hsla(5, 50%, 88%, 0.7) as string
 ```
 
 <hr />
