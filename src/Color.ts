@@ -1,7 +1,7 @@
 import { E_ColorType, I_Color } from "./utils/colorTypes";
 import { I_ColorPack } from "./utils/colorPack";
 import { midGreen } from "./colors/solid-rgb-colors";
-import { GREEN } from "./colors/default-colors";
+import { GREEN } from "./colors/color-packs";
 import { buildColor } from "./utils/buildColor";
 
 class ColorBuilder {
