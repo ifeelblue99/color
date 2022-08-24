@@ -5,6 +5,11 @@
     "author": "Baran Cakirbey <barancakirbey13@gmail.com>",
     "license": "MIT",
     "scripts": {
-      "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "@types/jest": "^28.1.8",
+        "jest": "^28.1.3",
+        "ts-jest": "^28.0.8"
     }
-  }
+}
