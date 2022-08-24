@@ -1,0 +1,32 @@
+{
+    "name": "@ifeelblue/color-kit",
+    "version": "0.0.2",
+    "description": "Color kit with pre-made hex colors",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ifeelblue99/color-kit.git"
+    },
+    "files": [
+        "lib",
+        "CHANGELOG.md",
+        "LICENSE",
+        "package.json",
+        "README.md"
+    ],
+    "keywords": [
+        "javascript",
+        "utils",
+        "typescript",
+        "color-kit",
+        "ifeelblue"
+    ],
+    "author": "Baran Cakirbey",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ifeelblue99/color-kit/issues"
+    },
+    "homepage": "https://github.com/ifeelblue99/color-kit#readme"
+}
