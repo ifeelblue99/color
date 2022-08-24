@@ -16,7 +16,7 @@ export function buildColor(color: I_Color): string {
       return `hsl(${hue},${saturation}%,${lightness}%)`;
 
     case E_ColorType.HSLA:
-      return `hsl(${hue},${saturation}%,${lightness}%,${alpha})`;
+      return `hsla(${hue},${saturation}%,${lightness}%,${alpha})`;
 
     default:
       return "#fff";
